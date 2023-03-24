@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(255, 0, 0);
+    font-family:ariel
+}
+
+
+@font-face {
+    font-family: "infini";
+    src: url("infini-gras.woff");
+}
+
+h1{
+    font-family:"infini";
+}

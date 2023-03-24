@@ -1,0 +1,9 @@
+h1{
+    font-weight: bold;
+    text-align: center;
+}
+body{
+    background-color: red;
+    text-align: center;
+    margin-top: 90%;
+}
