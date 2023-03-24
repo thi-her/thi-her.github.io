@@ -1,6 +1,10 @@
 body{
     background-color: rgb(255, 0, 0);
-    font-family:ariel
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+
+    
+
 }
 
 
@@ -11,4 +15,7 @@ body{
 
 h1{
     font-family:"infini";
+    margin-top: 90%;
+    font-size: x-large;
+    text-align: center;
 }
