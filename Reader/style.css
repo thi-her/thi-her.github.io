@@ -10,7 +10,7 @@ body{
 
 @font-face {
     font-family: "infini";
-    src: url("infini-gras.woff");
+    src: url("infini-gras.woff")
 }
 
 h1{
