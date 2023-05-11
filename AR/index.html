@@ -91,7 +91,25 @@
         metalness="1.0"
         roughness="0.0"          
         >
-        </a-box>        
+        </a-box> 
+      
+        
+        <a-sphere
+        radius="1.2"
+        position= "2 0 2"
+        src="1 red.jpg"
+        env-map="#env"
+        metalness="0.9"
+        roughness="0.1"                  
+        animation="
+        property: rotation; 
+        from: 0 0 0; 
+        to: 0 360 0; 
+        easing: linear; 
+        dur: 10000; 
+        loop:true"
+        >                  
+        </a-sphere>         
 
 
         <a-sphere
