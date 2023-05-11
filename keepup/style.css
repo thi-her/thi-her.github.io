@@ -1,0 +1,117 @@
+body{
+    background-color: blueviolet;
+    margin:0px;
+    font-size: 36px;
+}
+
+img{
+    width:100%;
+
+}
+div.row {
+display:flex;
+flex-wrap:wrap;
+}
+
+div.col {
+outline:6px solid rgb(121, 4, 56);
+height:600px;
+
+}
+
+
+div.width100{
+    width:100%;
+}
+
+div.width80{
+    width:80%:
+}
+
+div.width75{
+    width:75%;
+
+}
+
+div.width66{
+    width:66.666%;
+
+}
+
+div.width50{
+    width:50%;
+
+}
+
+div.width40{
+    width:40%;
+}
+
+div.width60{
+    width:60;
+}
+
+div.width33 {
+    width:33.333%;
+}
+
+div.width25{
+    width:25%;
+}
+
+div.width20{
+    width:20%;
+}
+
+div.bgred {
+    background-color: red;
+}
+
+div.bgbisque{
+    background-color: bisque;
+}
+
+div.bgpink{
+    background-color: pink;
+}
+
+
+div.menu{
+    position:fixed;
+    background-color: beige;
+}
+
+
+
+
+div.label{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid grey;
+    padding: 5px ; 
+    display: inline-block;
+}
+
+div.number{
+    padding: 5px;
+    display: inline-block;
+    background-color: red;
+    color: white;
+    border-radius: 100%;
+}
+
+div.label2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-width: 5px;
+    padding: 7px;
+    display: inline-block;
+   
+}
+
+div.number2{
+font-family: 'Courier New', Courier, monospace;
+border-radius: 50%;
+display: inline-block;
+background-color: red;
+padding: 6px;
+}

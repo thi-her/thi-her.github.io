@@ -15,7 +15,14 @@ body{
 
 h1{
     font-family:"infini";
-    margin-top: 90%;
-    font-size: x-large;
+    margin-top: 20%;
+    font-size: 60px;
     text-align: center;
+}
+
+
+paragraph1{ 
+    font-size: xx-small;
+    border-left: 6px;
+  
 }
