@@ -13,12 +13,32 @@ display:flex;
 flex-wrap:wrap;
 }
 
-div.col {
-outline:6px solid rgb(121, 4, 56);
-height:600px;
-
+@keyframes color-animation{ 
+    0% {background-color: black;}
+    50% { background-color: blueviolet;}
+    70% { background-color: blue;}
+    100% { background-color: rgb(255, 0, 0);}
 }
 
+div.animated-row{
+    animation: color-animation 1s infinite;
+}
+
+div.col {
+    outline:0px solid rgb(255, 255, 255);
+    height:600px;
+}
+
+
+@keyframes color-animation2{ 
+    0% {background-color: black;}
+    50%{ background-color: white;}
+    100%{ background-color: black;}
+}
+
+div.animated-row2{ 
+    animation: color-animation2 2s infinite;
+}
 
 div.width100{
     width:100%;
@@ -68,25 +88,52 @@ div.bgred {
 }
 
 div.bgbisque{
-    background-color: bisque;
+    background-color: rgb(0, 0, 0);
 }
 
 div.bgpink{
-    background-color: pink;
+    background-color: blueviolet;
+}
+
+div.bgblack{ 
+    background-color: black;
+}
+
+div.header{ 
+    color: white;
+
 }
 
 
 div.menu{
     position:fixed;
-    background-color: beige;
+    background-color: rgba(255, 255, 255, 0.432);
+    color: white;
 }
 
+div.open{
+    color: red;
+}
+
+div.newmessage{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+    
+div.upwards-text{
+    color: white;
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    white-space: nowrap;
+    font-size: 100%;
+}
 
 
 
 div.label{
     font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid grey;
+    border: 5px solid grey;
     padding: 5px ; 
     display: inline-block;
 }
@@ -102,9 +149,11 @@ div.number{
 div.label2{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    border-width: 5px;
-    padding: 7px;
+    border-width: 0;
+    padding: 5px;
     display: inline-block;
+    color: white;
+    border: 7px solid grey;
    
 }
 
@@ -114,4 +163,56 @@ border-radius: 50%;
 display: inline-block;
 background-color: red;
 padding: 6px;
+
+}
+
+div.label{
+    color: white;
+    border: 5px solid grey;
+}
+
+div.label3{ 
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    display: inline-block;
+    border: 5px solid grey;
+
+}
+
+div.number3{ 
+    font-family:'Times New Roman', Times, serif; 
+    border-radius: 50%;
+    background-color: blue;
+    display: inline-block;
+    padding: 8px;
+
+}
+
+
+div.label4{ 
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: inline-block;
+    border: 2px solid grey;
+}
+
+div.number4{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 0%;
+    background-color: blue;
+    display: inline-block;
+    padding: 10px;
+}
+
+div.clickme{
+    color: white;
+    outline: white;
+    align-content: center;
+}
+
+div.ending{
+    text-align: center;
+    color: white;
 }
